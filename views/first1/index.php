@@ -27,12 +27,12 @@ echo '<hr>';
     <tbody>
       <?php
       foreach ($person as $key => $value) {
-       echo '<tr>';
-    echo '<td>'.($key+1).'</td>';
-    echo '<td>John</td>';
-    echo '<td>Doe</td>';
-    echo '<td>john@example.com</td>';
-    echo '</tr>';
+        echo '<tr>';
+        echo '<td>'.($key+1).'</td>';
+        echo '<td>'.$value['fname'].'</td>';
+        echo '<td>'.$value['lname'].'</td>';
+        echo '<td>'.$value['email'].'</td>';
+        echo '<tr>';
           
       }
     
