@@ -91,6 +91,7 @@ class ComstatusController extends Controller
             return $this->render('update', [
                 'model' => $model,
                 echo 'hhh';
+            echo 'pppp';
             ]);
         }
     }
