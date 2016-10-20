@@ -90,6 +90,7 @@ class ComstatusController extends Controller
         } else {
             return $this->render('update', [
                 'model' => $model,
+                echo 'hhh';
             ]);
         }
     }
